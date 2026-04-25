@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body    {
+	background-color: #C56E2F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color: black;
+}
+
+header {
+	width: 900px;
+	height:175px;
+	background-color:#6B9568;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+	
+}
+
+section {
+	width: 900px;
+	background-image: url("images/2colback.jpg");
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+	
+}
+
+nav {
+	float: left;
+	width: 250px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+	
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #75AFC8;
+	margin: auto;
+	}
+.logoleft{
+	float:left;
+	padding-top: 0px;
+	padding-left: 60px;
+}
+
+nav a {
+	border: 6px inset #CCCCCC;
+	background-color:#C56E2F;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color:black;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+nav a:hover {
+	color: #67D0CF;
+	border: 2px outset #CCCCCC;
+	
+	
+}
+
+h1 {
+	color:#BF393B;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p {
+	color:antiquewhite;
+	text-align:center;
+}
+
+.auto-style1 {
+	float:left;
+	height:150px;
+	padding: 0px 15px 10px 80px;
+	margin-left: 29px;
+}
+
+h2 {
+	color:#D78F47
+}
+.thumbnailleft{
+	float: left;
+	padding-right: 10px;
+}
+
+.thumbnailright{
+	float: right;
+	padding-left: 10px;
+	}
+	
+a:link{
+color:#2C3A40;
+
+}	
+
+a:visited{
+	color:#6A4C7D;
+}
+
+a:hover{
+color:#AF35AE;
+}
+
+p{
+	font-size: small;
+}
+h1.trib{
+	color: #8B0000;
+}
+h2.trib{
+	color: #003B44;
+}
+h3 {
+	font-size: medium;
+	font-weight: bold;
+	}
+
+h4 {
+	font-size: small;
+	font-style: italic;
+	}
+
+hr{
+  clear: both;
+}
+
+a.trib:link{
+color:#D3AA1D
+
+}
+
+
+.center {
+	text-align: center;
+	}
+table {width: 100%;
+		margin: 0 auto;}
+		
+
+table { border: none;
+				border-collapse: collapse;
+				border-spacing: 0;
+				padding: 8px;
+				border-radius: 5px;
+				}
+
+caption{ font-family: Arial, Helvetica, sans-serif;
+		color: #1d2f20;
+		font-weight: bold;
+		background-color:#87CEEB;
+		border-radius: 10px;
+		border: 2px solid #1d2f20;
+		height: 40px;
+		text-align: center;
+		font-size: 40px;
+		
+		}
+		
+			
+td {
+	background-color: #8C6A3D;
+	font-size: 20px;
+	border: 3px solid #1d2f20;
+	}
+
+th { border: 5px solid #1d2f20;
+	padding: 5px;
+	font-size: 20px;
+	background-color:#EDA421;
+	color:#C91E0A;
+	}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
